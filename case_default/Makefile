@@ -1,0 +1,9 @@
+compile:
+		vlib work;
+			vlog -sv case_without_default.sv
+
+simulate :
+		vsim top -l case_without_default.log -c -do "run -all;exit;"
+
+all:
+		make compile && make simulate
