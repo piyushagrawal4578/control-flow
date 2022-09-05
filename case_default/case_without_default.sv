@@ -7,7 +7,6 @@
 //       condition_2: Statements ;
 //       ...........
 //       conditon_N: Statements;
-//       default   : Statements;
 //       endcase
 
 
