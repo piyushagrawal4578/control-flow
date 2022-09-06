@@ -1,6 +1,6 @@
-# vsim nested_loop -l nested_loop_op.log -c -do "run -all;exit;" 
-# Start time: 03:48:08 on Sep 07,2022
-# ** Note: (vsim-8009) Loading existing optimized design _opt
+# vsim nested_loop -l nested_loop_op.log -c -do "run -all; exit;" 
+# Start time: 03:54:11 on Sep 07,2022
+# ** Note: (vsim-3812) Design is being optimized...
 # //  Questa Sim
 # //  Version 10.6c linux Jul 25 2017
 # //
@@ -23,6 +23,6 @@
 # 	 i= 1 , j= 1 
 # 	 i= 1 , j= 2 
 # 	 i= 1 , j= 3 
-# exit
-# End time: 03:48:08 on Sep 07,2022, Elapsed time: 0:00:00
+#  exit
+# End time: 03:54:12 on Sep 07,2022, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
